@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Evitar subir archivos pesados
+public/assets/
+*.mp4
+
+# Archivos generados por Node.js / Next.js
+node_modules/
+.next/
+.env
+.DS_Store
+*.log
