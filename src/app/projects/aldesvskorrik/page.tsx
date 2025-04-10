@@ -69,6 +69,14 @@ export default function AldesVsKorrikPage() {
               Frecuencia Violeta
             </p>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
+              Para generar mas intriga, misterio y dar un aura mistica en todos los flyers se pondra secret location, si quieres obtener
+              la locacion compra tu entrada y te llegara al correo.
+            </p>
+            <p className="mt-4 text-lg text-gray-300 max-w-2xl">
+              Hacer un correo personalizado y tambien seria genial implementar una especie de entrada fisica ademas de la manilla esto 
+              puede incentivar la coleccion de estos por un precio adicional.
+            </p>
+            <p className="mt-4 text-lg text-gray-300 max-w-2xl">
               Sabado 12 de Julio
             </p>
           </div>
@@ -133,13 +141,12 @@ export default function AldesVsKorrikPage() {
           </div>
         </section>
 
-
-
-        
+        <section className="snap-center flex justify-center items-center min-h-screen">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-red-500">Guia de contenido</h2>
+          </div>
+        </section>
       </main>
     </div>
-
-    
-
   );
 }
