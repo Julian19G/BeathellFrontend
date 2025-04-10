@@ -1,10 +1,17 @@
 import ScrollIndicator from "@/components/ScrollIndicator";
+import BackgroundFramer from "@/components/BackgroundFramer";
 
 export default function AldesVsKorrikPage() {
   return (
-    <div className="h-screen w-screen overflow-hidden bg-black text-white">
-      <main className="h-full w-full snap-y snap-mandatory overflow-y-scroll scrollbar-none">
-        
+
+    <div className="relative h-screen w-screen bg-black text-white">
+
+    {/* Fondo animado */}
+    <BackgroundFramer />
+
+       
+    <main className="relative z-10 h-full w-full snap-y snap-mandatory overflow-y-scroll scrollbar-none">
+      
         {/* Sección 1 */}
         <section className="snap-center flex justify-center items-center min-h-screen">
           <div className="flex flex-col items-center text-center">
@@ -36,7 +43,7 @@ export default function AldesVsKorrikPage() {
         </section>
 
         {/* Sección 2 */}
-        <section className="snap-center flex justify-center items-center min-h-screen bg-black/80">
+        <section className="snap-center flex justify-center items-center min-h-screen">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-red-500">Line Up</h2>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
@@ -59,7 +66,7 @@ export default function AldesVsKorrikPage() {
         </section>
 
         {/* Sección 3 */}
-        <section className="snap-center flex justify-center items-center min-h-screen bg-black/90">
+        <section className="snap-center flex justify-center items-center min-h-screen">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-red-500">Ubicación</h2>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
@@ -68,35 +75,48 @@ export default function AldesVsKorrikPage() {
           </div>
         </section>
 
-              {/* Sección 4 */}
-              <section className="snap-center flex justify-center items-center min-h-screen bg-black/90">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-red-500">Tickets</h2>
-            <p className="mt-4 text-lg text-gray-300 max-w-2xl">
-            Esta fiesta presupuestada por 8.000.000 intentaremos recuperar esta cifra con 250 boletas dando un promedio de 32.000 por boleta dando la comisión de los promotores 38.000 por boleta, siendo una cifra mas que optima para lograrse en el tiempo presupuestando intentando dar la mayor ganancia posible
-            </p>
-            <p className="mt-4 text-lg text-gray-300 max-w-2xl">
-            Teniendo 3 etapas abriendo con lanzamiento en 40.000 y por cada etapa subir 20.000 
-            </p>
-            <p className="mt-4 text-lg text-gray-300 max-w-2xl">
-            En este evento no tendremos restricción de horario ni backstage  
-            </p>
-          </div>
-        </section>
+         {/* Sección 4 */}
+<section className="snap-center flex justify-center items-center min-h-screen">
+  <div className="text-center px-4">
+    <h2 className="text-3xl font-bold text-red-500">Tickets</h2>
+
+    <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
+      Esta fiesta está presupuestada por 8.000.000. Intentaremos recuperar esta cifra con 250 boletas, 
+      dando un promedio de $32.000 por boleta. Con la comisión de los promotores, el valor por boleta será 
+      de $38.000, una cifra óptima para lograr el equilibrio financiero y garantizar una ganancia razonable.
+    </p>
+
+    <div className="mt-6 text-lg text-gray-300 max-w-2xl mx-auto text-left">
+      <p className="mb-2">Las etapas de boletería serán:</p>
+      <ul className="list-disc list-inside space-y-1">
+        <li>Etapa 1 (Lanzamiento): $40.000</li>
+        <li>Etapa 2 (Preventa): $60.000</li>
+        <li>Etapa 3 (Taquilla): $80.000</li>
+      </ul>
+    </div>
+
+    <p className="mt-6 text-lg text-gray-300 max-w-2xl mx-auto">
+      En este evento no tendremos restricción de horario ni backstage.
+    </p>
+  </div>
+</section>
+
 
                {/* Sección 5 */}
-               <section className="snap-center flex justify-center items-center min-h-screen bg-black/90">
+               <section className="snap-center flex justify-center items-center min-h-screen">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-red-500">Presupuesto</h2>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
-            Nuestro evento tiene presupuestado un costo de 8.000.000 como máximo, el evento actualmente tiene un presupuesto de 7.000.000 	teniendo una diferencia positiva de 1.000.000, Aunque los tickets de Chile a cali pueden reducirse a la mitad si se consigue que otro colectivo lo contrate. Reduciendo entre un promedio de 500.000 a 750.000.
+            Nuestro evento tiene presupuestado un costo de 8.000.000 como máximo, el evento actualmente tiene un presupuesto de 7.000.000
+            teniendo una diferencia positiva de 1.000.000, Aunque los tickets de Chile a cali pueden reducirse a la mitad si se consigue
+           que otro colectivo lo contrate. Reduciendo entre un promedio de 500.000 a 750.000.
             </p>
           </div>
         </section>
 
 
            {/* Sección 5 */}
-           <section className="snap-center flex justify-center items-center min-h-screen bg-black/90">
+           <section className="snap-center flex justify-center items-center min-h-screen">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-red-500">Promocion y Estrategia</h2>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
@@ -112,5 +132,6 @@ export default function AldesVsKorrikPage() {
         </section>
       </main>
     </div>
+
   );
 }

@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-xs font-extrabold tracking-wide neon-glow">
-  <div className="scale-75 md:scale-60">
+  <div className="scale-60 md:scale-40">
     <B3ATHELLLogo />
   </div>
 </Link>

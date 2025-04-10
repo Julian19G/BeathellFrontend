@@ -12,7 +12,7 @@ export default function B3ATHELLLogo() {
 
   return (
     <div className="flex justify-center items-center">
-      <h1 className="text-5xl md:text-7xl font-bold infernal-text">
+      <h1 className="text-4xl md:text-7xl font-bold infernal-text">
         <span className="text-red-500 neon-glow">B3ATHELL</span>
       </h1>
 

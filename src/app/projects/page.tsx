@@ -33,7 +33,7 @@ export default function ProjectsPage() {
         {/* Sección 2 */}
         <section className="snap-center flex justify-center items-center min-h-screen text-white p-6 bg-transparent">
           <div className="text-center">
-            <h2 className="text-3xl font-bold neon-glow">Aldes vs Korrik</h2>
+            <h2 className="text-3xl font-bold neon-glow text-red-500">Aldes vs Korrik</h2>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
               Conoce la ficha técnica y todo acerca del evento.
             </p>
