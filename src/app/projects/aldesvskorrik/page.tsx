@@ -28,16 +28,12 @@ export default function AldesVsKorrikPage() {
           <div className="flex flex-col items-center text-center">
             <h1 className="text-4xl font-bold text-red-500">Propuesta</h1>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
-            Lo que queremos proponer es celebrar el tercer aniversario de nuestro colectivo que nació un 15 de julio del 2023 y queremos celebrarlo trayendo al artista que estadísticamente le fue mejor en el año 2024, también apostando por un artista internacional de nacionalidad chilena trayéndolo por primera vez a la ciudad de cali en formato f2f.
+            Lo que queremos proponer es celebrar el tercer aniversario de nuestro colectivo que nació un 15 de julio del 2023 y queremos
+            celebrarlo trayendo al artista que estadísticamente le fue mejor en el año 2024, también apostando por un artista internacional
+            de nacionalidad chilena trayéndolo por primera vez a la ciudad de cali en formato F2F (Face To Face).
             </p>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
-            La ubicación que hemos escogido es la frecuencia violeta que tiene una capacidad máxima de 1200 personas 
-            </p>
-            <p className="mt-4 text-lg text-gray-300 max-w-2xl">
-            La fecha del evento seria sábado 12 de julio
-            </p>
-            <p className="mt-4 text-lg text-gray-300 max-w-2xl">
-            Lanzar la  fiesta con transmisión en vivo en plataformas
+            Lanzar la  fiesta con transmisión en vivo en plataformas como kick
             </p>
           </div>
         </section>
@@ -47,7 +43,7 @@ export default function AldesVsKorrikPage() {
           <div className="text-center">
             <h2 className="text-3xl font-bold text-red-500">Line Up</h2>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
-             Aldes vs Korrik
+             Aldes F2F Korrik
             </p>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
              ALEJO F2F G3ANXLN 
@@ -68,12 +64,30 @@ export default function AldesVsKorrikPage() {
         {/* Sección 3 */}
         <section className="snap-center flex justify-center items-center min-h-screen">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-red-500">Ubicación</h2>
+            <h2 className="text-3xl font-bold text-red-500">Ubicación y fecha</h2>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
               Frecuencia Violeta
             </p>
+            <p className="mt-4 text-lg text-gray-300 max-w-2xl">
+              Sabado 12 de Julio
+            </p>
           </div>
         </section>
+
+
+                      {/* Sección 5 */}
+                      <section className="snap-center flex justify-center items-center min-h-screen">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-red-500">Presupuesto</h2>
+            <p className="mt-4 text-lg text-gray-300 max-w-2xl">
+            Nuestro evento tiene presupuestado un costo de 8.000.000 como máximo, el evento actualmente tiene un presupuesto de 7.000.000
+            teniendo una diferencia positiva de 1.000.000, Aunque los tickets de Chile a cali pueden reducirse a la mitad si se consigue
+           que otro colectivo lo contrate. Reduciendo entre un promedio de 500.000 a 750.000.
+            </p>
+          </div>
+        </section>
+
+
 
          {/* Sección 4 */}
 <section className="snap-center flex justify-center items-center min-h-screen">
@@ -101,26 +115,14 @@ export default function AldesVsKorrikPage() {
   </div>
 </section>
 
-
-               {/* Sección 5 */}
-               <section className="snap-center flex justify-center items-center min-h-screen">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-red-500">Presupuesto</h2>
-            <p className="mt-4 text-lg text-gray-300 max-w-2xl">
-            Nuestro evento tiene presupuestado un costo de 8.000.000 como máximo, el evento actualmente tiene un presupuesto de 7.000.000
-            teniendo una diferencia positiva de 1.000.000, Aunque los tickets de Chile a cali pueden reducirse a la mitad si se consigue
-           que otro colectivo lo contrate. Reduciendo entre un promedio de 500.000 a 750.000.
-            </p>
-          </div>
-        </section>
-
-
            {/* Sección 5 */}
            <section className="snap-center flex justify-center items-center min-h-screen">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-red-500">Promocion y Estrategia</h2>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
-            Para nuestro lanzamiento queremos salir ofreciendo 10 gratis y algun accesorio comentando, siguiendo a beathell, y compartiendo las historias haciendo que el lanzamiento llegue con gran impacto y generando expectativa en el publico.
+            Para nuestro lanzamiento queremos salir ofreciendo 10 entradas gratis y algun accesorio comentando, siguiendo a beathell y a las 
+            marcas aliadas, compartiendo las historias haciendo que el lanzamiento llegue con gran impacto y generando expectativa
+            en el publico.
             </p>
             <p className="mt-4 text-lg text-gray-300 max-w-2xl">
             Ofrecer promociones 3x2
@@ -130,8 +132,14 @@ export default function AldesVsKorrikPage() {
             </p>
           </div>
         </section>
+
+
+
+        
       </main>
     </div>
+
+    
 
   );
 }
